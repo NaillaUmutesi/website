@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins',sans-serif;
+}
+
+.pre-header{
+display: flex;
+justify-content: space-between;
+background: #000;
+color: #fff;
+padding: 0 50px;
+width: 100%;
+height: 50px;
+}
+
+.pre-header .right i{
+display: inline-block;
+margin: 0 7px 0;
+text-align: center;
+line-height: 25px;
+transition: all 0.5s ease;
+font-size: 27px;
+margin-top: 10px;
+}
+
+
+.pre-header .left{
+position: relative;
+left: -150px;
+font-size: 20px;
+margin-top: 10px;
+display: flex;
+
+}
+
+.pre-header .left i{
+color: #90ee90;
+font-size: 27px;
+
+}
+
+.pre-header .left p{
+margin-left: 5px;
+}
+
+.pre-header .btn{
+background: #90ee90;
+padding: 0 5px;
+color: #000;
+
+margin-left: 50px;
+font-size: 15px;
+font-weight: bold;
+align-items: center;
+margin-bottom: 5px;
+}
+
+
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+nav{
+width: 100%;
+height: 15vh;
+}
+.logo{
+font-size: 24px;
+font-style: italic;
+padding: 20px 0 0 20px;
+}
+.navbar ul{
+float: right;
+}
+.navbar ul li{
+   display:inline-block;
+   padding: 0 20px 0 0;
+   font-weight: bold;
+   position: relative;
+   top: -20px;
+
+}
+.navbar ul li a{
+text-decoration: none;
+color:black;
+}
+
+
+
+
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.hero{
+width: 100%;
+height:80vh;
+background-image: url(hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hero h1{
+text-align: center;
+font-size: 50px;
+color: white;
+position: relative;
+top: 30vh;
+}
+.hero p{
+text-align:center;
+position: relative;
+top: 35vh;
+color: white;
+font-size: 30px;
+}
+.btn-1{
+align-items: center;
+justify-content: center;
+position: relative;
+top: 39vh;
+left: 835px;
+border: none;
+width: 8%;
+height: 5vh;
+background: orange;
+font-weight: bold;
+
+}
+
+
+
+.services .box-container {
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: wrap;
+     
+      }
+
+.heading-1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.heading-1 span{
+color: green;}
+
+.text{
+color: grey;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+
+.services .box-container .box{
+              flex: 2rem;
+              background: #fff;
+              border-radius: .5rem;
+              border: .2rem solid rgba(0, 0, 0, .2);
+              box-shadow: 0 .5re 1rem rgba(0, 0, 0, 1.0);
+              margin: 1rem;
+              padding:  2rem 10rem;
+              text-align: center;
+              transition: 2s linear;
+              
+
+}
+
+
+.services .box-container .box .user img{
+       border-radius: 50%;
+       object-fit: cover;
+       height: 10rem;
+       width: 10rem;
+       margin-top: 1rem;
+       margin-bottom: 1.2rem;
+}
+
+.services .box-container .box .user h2{
+text-align: center;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+.comment{
+color: grey;
+text-align: center;
+}
+
+
+
+.about-us{
+width: 100%;
+height: 70vh;
+}
+.about-us h1{
+text-align: center;
+font-size: 40px;
+}
+.about-us span{
+color:green;
+}
+.col-1{
+width: 50%;
+padding: 20px 0 0 20px;
+}
+.col-1 p{
+font-weight: bold;
+padding: 30px 0 0 0;
+}
+.read-more{
+position: relative;
+left: 5px;
+top: 20px;
+border: none;
+width: 15%;
+height: 5vh;
+background: orange;
+font-weight: bold;
+
+}
+.img img{
+float: right;
+width: 40%;
+height: 60vh;
+padding: 40px 10px 0 0;
+
+}
+
+
+.services-1 .box-container{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-flow: wrap;
+           
+}
+
+
+.services-1 .box-container .box{
+             flex: 2rem;
+              background: lightgrey;
+              border-radius: .5rem;
+              border: .2rem solid rgba(0, 0, 0, .2);
+              box-shadow: 0 .5re 1rem rgba(0, 0, 0, 1.0);
+              margin: 1rem;
+              padding:  2rem 10rem;
+              text-align: center;
+              justify-content: center;
+              transition: 2s linear;
+          }
+
+ .star {
+ 
+  border-radius: 50%;
+       height: 5rem;
+       width: 5rem;
+       margin-top: 1rem;
+       background: orange;
+       color: orangered;
+       position: relative;
+       top: -80%;
+       left: 35%;
+       margin-bottom: 50px;
+       justify-content: center;
+       text-align: center;
+     
+       }
+
+ .star .bx{
+  position: relative;
+  top: 20%;
+  left: %;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+ }
+
+.services-1 .box-container .box a{
+color: darkgreen;
+text-decoration: underline;
+margin-top: 10px;
+font-weight: 10px;
+
+}
+
+
+
+
+
+/*circles*/
+
+
+.process .container{
+
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: wrap;
+     
+}
+
+.process .container .box-1{
+              flex: 2rem;
+              background: fff;
+              border-radius: .5rem;
+          
+              margin: 1rem;
+              padding:  2rem 10rem;
+              text-align: center;
+              justify-content: center;
+              transition: 2s linear;
+}
+
+.box-1 .icn{
+border-radius: 50%;
+background: #fafafa;
+height: 250px;
+width: 250px;
+box-shadow: 8px 8px 8px -2px ;
+justify-content: center;
+align-items: center;
+left: 50%;
+}
+
+.box-1 .icn .bx{
+color: #90ee90;
+position: relative;
+bottom: -80px;
+right: -5px;
+font-size: 100px;
+
+}
+
+.box-1 h2{
+font-size: 27px;
+margin-top: 20px;
+}
+
+.box-1 p{
+color: grey;
+justify-content: center;
+margin-top: 10px;
+}
+
+
+
+
+
+
+.page{
+width: 100%;
+height: 80vh;
+padding:  2rem .30rem;
+font-size: 25px;
+margin-bottom: 100px;
+
+}
+.H1 h1{
+text-align: center;
+font-size: 40px;
+}
+.H1 h1 span{
+color: green;
+}
+.H1 p{
+text-align: center;
+padding: 20px 90px 0 90px;
+
+}
+.p-about-us{
+padding: 30px 40px 0 50px;
+width: 45%;
+float: right;
+}
+.p-about-us1{
+padding: 30px 40px 0 50px;
+width: 45%;
+float: left;
+}
+.p-about-us1 h5 {
+padding: 0 0 0 20px;
+font-size: 15px;
+}
+.p-about-us1 p{
+padding: 0 0 0 20px;
+font-weight: bold;
+}
+.p-about-us1 .bx{
+position: relative;
+right: 20px;
+top: 40px;
+font-size: 37px;
+}
+.p-about-us .bx{
+position: relative;
+right: 20px;
+top: 40px;
+font-size: 37px;
+}
+.p-about-us h5{
+padding: 0 0 0 20px;
+font-size: 15px;
+
+}
+.p-about-us p {
+padding: 0 0 0 20px;
+font-weight: bold;
+}
+
+
+
+
+.newsletter{
+justify-content: center;
+text-align: center;
+height: 50vh;
+background:green;
+font-size: 30px;
+}
+.boxes h1{
+padding-top: 70px;
+text-align: center;
+color: white;
+font-size: 40px;
+}
+input{
+margin-left: 10px;
+padding: 15px 0 15px 20px;
+
+}
+.btn-2{
+align-items: center;
+justify-content: center;
+border: none;
+width: 8%;
+height: 5vh;
+background: orange;
+font-weight: bold;
+
+}
+.n-p{
+color: white;
+text-align: center;
+padding: 50px 150px 0 150px;
+}
+
+
+
+footer{
+width: 100%;
+position: relative;
+bottom: 0;
+color:white;
+padding: 60px 0 20px;
+font-size: 13px;
+line-height: 20px;
+background:#90EE90;
+   padding-top: 60px;
+}
+.row{
+width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+.col h3{
+font-size: 30px;
+font-style: italic;
+}
+.col h4{
+font-size: 20px;
+}
+.col h5{
+padding-top: 10px;
+font-weight: bold;
+font-size: 15px;
+}
+.col{
+flex-basis: 25%;
+padding: 10px;
+}
+.col p{
+padding-top:30px;
+}
+.col ul{
+padding-top: 30px;
+}
+.col ul li{
+list-style: none;
+padding-top: 15px;
+}
+
